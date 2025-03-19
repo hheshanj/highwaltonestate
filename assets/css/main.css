@@ -58,12 +58,12 @@ body {
 a {
   color: var(--accent-color);
   text-decoration: none;
-  transition: 0.3s;
 }
 
 a:hover {
   color: color-mix(in srgb, var(--accent-color), transparent 25%);
   text-decoration: underline;
+  text-decoration-thickness: 5px;
 }
 
 h1,
@@ -74,6 +74,7 @@ h5,
 h6 {
   color: var(--heading-color);
   font-family: var(--heading-font);
+  
 }
 
 /* PHP Email Form Messages
@@ -135,7 +136,7 @@ h6 {
   color: var(--default-color);
   background-color: var(--background-color);
   padding: 20 px 0;
-  transition: all 0.5s;
+  transition: all 5s;
   z-index: 997;
 }
 
@@ -153,6 +154,7 @@ h6 {
   margin: 0;
   font-weight: 300;
   color: var(--heading-color);
+  text-decoration: none
 }
 
 .scrolled .header {
