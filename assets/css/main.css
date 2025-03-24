@@ -2383,3 +2383,7 @@ section,
   order: -1;
   
 }
+
+.mapsview {
+  float: right;
+}
