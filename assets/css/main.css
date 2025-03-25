@@ -1600,6 +1600,9 @@ section,
 /*--------------------------------------------------------------
 # Team Section
 --------------------------------------------------------------*/
+.team {
+  padding-top: 70px;
+}
 .team .team h3 {
   font-size: 20px;
 }
@@ -1621,6 +1624,7 @@ section,
   margin-bottom: 20px;
   font-size: 14px;
   color: color-mix(in srgb, var(--heading-color), transparent 30%);
+  
 }
 
 .team p {
@@ -1683,6 +1687,7 @@ section,
 
 .team .swiper-wrapper {
   height: auto;
+  
 }
 
 .team .slider-nav a {
@@ -2386,4 +2391,23 @@ section,
 
 .mapsview {
   float: right;
+}
+
+.horizontal-list {
+  display: inline-flex;
+  margin-left: -50px;
+  padding-top: 40px;
+  
+}
+.horizontal-list li {
+  list-style: none;
+}
+
+.horizontal-list a {
+  text-decoration: none;
+  padding: 40px;
+  
+  
+  
+  
 }
