@@ -762,6 +762,11 @@ section,
   color: var(--default-color);
 }
 
+.about-image img {
+  width: 500px;
+  height: 300px;
+}
+
 /*--------------------------------------------------------------
 # About 2 Section
 --------------------------------------------------------------*/
@@ -1687,6 +1692,7 @@ section,
 
 .team .swiper-wrapper {
   height: auto;
+
   
 }
 
