@@ -63,7 +63,7 @@ a {
 a:hover {
   color: color-mix(in srgb, var(--accent-color), transparent 25%);
   text-decoration: underline;
-  text-decoration-thickness: 5px;
+  text-decoration-thickness: 3px;
 }
 .h
 {
@@ -179,10 +179,12 @@ h6 {
     display: flex;
     list-style: none;
     align-items: center;
+    
   }
 
   .navmenu li {
     position: relative;
+    
   }
 
   .navmenu a,
@@ -196,7 +198,9 @@ h6 {
     align-items: center;
     justify-content: space-between;
     white-space: nowrap;
-    transition: 0.3s;
+    transition: 0.4s;
+    text-decoration: none;
+    
   }
 
   .navmenu a i,
@@ -215,6 +219,10 @@ h6 {
   .navmenu .active,
   .navmenu .active:focus {
     color: var(--nav-hover-color);
+    font-size: 18px;
+    text-decoration: underline;
+    transition: font-size 0.4s,
+    font-weight 0.4s
   }
 }
 
